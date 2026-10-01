@@ -1,4 +1,4 @@
-# Workshop 2b
+# Workshop 2
 
 Please find the instructions for this workshop here: 
 
@@ -7,7 +7,7 @@ https://github.com/ipynb-python/Workshop-2-Instructions/blob/main/README.md
 You can run each file using the terminal e.g.
 
 ```sh
-python workshop2b_part1.py
+python workshop2_part1.py
 ```
 
 The expected outputs of each code file can be found in the `ref_output` folder.
@@ -31,4 +31,4 @@ git commit -m "finished exercises"
 git push
 ```
 
-It is a good habit to commit and push your files everytime you have made a significant change. In this case you can change the commit message, e.g. `git commit -m "completed workshop2b_part1.py"`.
+It is a good habit to commit and push your files everytime you have made a significant change. In this case you can change the commit message, e.g. `git commit -m "completed workshop2_part1.py"`.
