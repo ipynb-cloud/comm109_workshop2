@@ -31,4 +31,4 @@ git commit -m "finished exercises"
 git push
 ```
 
-It is a good habit to commit and push your files everytime you have made a significant change. In this case you can change the commit message, e.g. `git commit -m "completed workshop2b_part1.py"`.
+It is a good habit to commit and push your files everytime you have made a significant change. In this case you can change the commit message, e.g. `git commit -m "completed workshop2_part1.py"`.
