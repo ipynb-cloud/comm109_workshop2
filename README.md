@@ -2,7 +2,7 @@
 
 Please find the instructions for this workshop here: 
 
-https://github.com/ipynb-python/Workshop-2b-Instructions/blob/main/README.md
+https://github.com/ipynb-python/Workshop-2-Instructions/blob/main/README.md
 
 You can run each file using the terminal e.g.
 
