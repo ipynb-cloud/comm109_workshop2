@@ -1,55 +1,34 @@
-## COMM109Z Yahtzee Assignment
+# Workshop 2b
 
-**All coding for this assignment must be completed within CodeSpaces**
+Please find the instructions for this workshop here: 
 
-**(i.e. you should not code a solution elsewhere and paste the code into CodeSpaces)**
+https://github.com/ipynb-python/Workshop-2-Instructions/blob/main/README.md
 
-Please complete the GenAI Declaration text file before submitting.
+You can run each file using the terminal e.g.
 
-Should you have any issues or queries about GitHub or working in CodeSpaces please contact the module organiser for additional support on using it.
-
-### TASK
-
-Follow the instructions provided in the *Coding Yahtzee* PDF file.
-
-To check your functions are working as you write them you can add code to the `run_checks.py` file to verify the functions behave as expected, e.g. running it using the following terminal command:
-
-```
-python run_checks.py
+```sh
+python workshop2b_part1.py
 ```
 
-Your codespace files save automatically as you work on the local machine. However they are not permenantly saved unless they are saved back to GitHub.
+The expected outputs of each code file can be found in the `ref_output` folder.
 
-To save your work to GitHub see the instructions below. You should do this regularly (e.g. at least at the end of every coding session). 
+Run the grading script to check your code by entering the following command in the terminal.
 
----
-
-### Saving to GitHub
-
-When coding in CodeSpaces you are working in a temporary virtual machine.
-
-**If you do not log in and use the machine it will get deleted after a few weeks.**
-
-**Therefore you must commit and save your work to GitHub where it can be permenantly stored.**
-
-You can do this using the normal git management tools (from command line or the *Source Control* side panel).
-
-You can also use a custom helper script that is provided.
-
-To save your work permanently to GitHub, using this script, type the following in the terminal:
-
-
-```
-git_helper --commit
+```sh
+bash grade_workshop.sh
 ```
 
-It is a good habit to commit and push your files
- everytime you have made a significant change. 
- 
-You can also add a custom commit message to help track your work e.g. 
+After completing the exercises please run the following commands in the terminal.
 
-```
-git_helper --commit "completed part1"
+These lines will save your code in three stages:
+ - modified files are staged to specify which changes will be commited;
+ - staged changes are committed to the local git code repository (on the CodeSpace machine)
+ - changes are pushed to the remote master copy of the code repository on GitHub website
+
+```sh
+git add .
+git commit -m "finished exercises"
+git push
 ```
 
-To check your work has been saved go to the GitHub repo page.
+It is a good habit to commit and push your files everytime you have made a significant change. In this case you can change the commit message, e.g. `git commit -m "completed workshop2b_part1.py"`.
